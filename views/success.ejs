@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <% Include ingredients/head %> 
+</head>
+<body>
+<% Include ingredients/menu %>
+
+<div class="container-fluid bg-3 text-center">    
+  <h3><%= page %></h3><br>
+
+ <p>Tanks! Your recipe was added! Total of <%= count %> recipes</p>
+ <a onclick="history.back()">Back</a>
+</div>
+</body>
+<% include partials/script %>
+</html>
